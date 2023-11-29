@@ -39,8 +39,8 @@ class poseDetector:
 
 
 def send_msg(text, image_path=None):
-    token = "6957812208:AAF14C_XIGlvR6pLAGg3H8DWOwIk7pVusUI"
-    chat_id = "5617370861q"
+    token = "Your telegram token"
+    chat_id = "your own chat id"
 
     # Get current time in IST
     current_time_utc = datetime.utcnow()
