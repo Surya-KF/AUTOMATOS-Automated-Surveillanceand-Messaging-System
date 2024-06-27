@@ -1,0 +1,7 @@
+streamlit
+torch
+opencv-python
+pytz
+requests
+matplotlib
+ultralytics
