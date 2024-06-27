@@ -32,7 +32,7 @@ AUTOMATOS is an automated surveillance and messaging system designed to enhance 
 1. Configure the surveillance settings in `config.json`.
 2. Run the main script:
    ```bash
-   pmain.py
+   main.py
    ```
 
 ## Files
