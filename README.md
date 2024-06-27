@@ -1,16 +1,15 @@
-
 # AUTOMATOS - Automated Surveillance and Messaging System
 
 ## Overview
 
-AUTOMATOS is an automated surveillance and messaging system designed to enhance security and monitoring capabilities using video footage. This project leverages Python for processing CCTV footage to detect and identify individuals.
+AUTOMATOS is an automated surveillance and messaging system designed to enhance security and monitoring capabilities using video footage. This project leverages Python and YOLO models for processing CCTV footage to detect and identify individuals.
 
 ## Features
 
 - **Automated Surveillance**: Monitors video feeds for specific activities and individuals.
 - **Messaging System**: Sends notifications based on predefined criteria.
 - **CCTV Integration**: Works with existing CCTV systems for seamless integration.
-- **Python-Based**: Utilizes Python scripts for video processing and detection.
+- **YOLO Models**: Utilizes YOLOv5 and YOLOv8 models for detection accuracy.
 
 ## Installation
 
@@ -29,18 +28,19 @@ AUTOMATOS is an automated surveillance and messaging system designed to enhance 
 
 ## Usage
 
-1. Configure the surveillance settings in `config.json`.
+1. Configure the surveillance settings in `app.py`.
 2. Run the main script:
    ```bash
-   main.py
+   python app.py
    ```
 
 ## Files
 
-- `main.py`: The main script to run the surveillance system.
-- `config.json`: Configuration file for setting parameters.
-- `video_processing.py`: Contains functions for processing video footage.
-- `messaging.py`: Handles sending notifications based on detection events.
+- `app.py`: The main script to run the surveillance system.
+- `Culprit_detected.mp4`: Example video footage for testing the system.
+- `requirements.txt`: List of required Python packages.
+- `yolov5su.pt`: YOLOv5 model file for object detection.
+- `yolov8n.pt`: YOLOv8 model file for object detection.
 
 ## Contributing
 
@@ -52,6 +52,6 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-For any inquiries or support, please contact suryakf04@gmail.com.
+For any inquiries or support, please contact [suryakf04@gmail.com].
 
-
+---
